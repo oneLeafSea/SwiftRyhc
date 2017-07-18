@@ -1,0 +1,743 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConstraintDescriptionFinalizable"
+- "ConstraintDescriptionPriortizable"
+- "ConstraintDescriptionEditable"
+- "ConstraintDescriptionRelatable"
+- "ConstraintDescriptionExtendable"
+- "ConstraintDescription"
+provides-nominal:
+- "P7SnapKit32ConstraintDescriptionFinalizable"
+- "P7SnapKit33ConstraintDescriptionPriortizable"
+- "P7SnapKit29ConstraintDescriptionEditable"
+- "P7SnapKit30ConstraintDescriptionRelatable"
+- "P7SnapKit31ConstraintDescriptionExtendable"
+- "C7SnapKit21ConstraintDescription"
+provides-member:
+- ["P7SnapKit32ConstraintDescriptionFinalizable", ""]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", ""]
+- ["P7SnapKit29ConstraintDescriptionEditable", ""]
+- ["P7SnapKit30ConstraintDescriptionRelatable", ""]
+- ["P7SnapKit31ConstraintDescriptionExtendable", ""]
+- ["C7SnapKit21ConstraintDescription", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ConstraintRelation"
+- !private "NSException"
+- "ConstraintDescriptionFinalizable"
+- "AssignmentPrecedence"
+- !private "=="
+- "ConstraintDescriptionPriortizable"
+- "NSLayoutAnchor"
+- "CGFloat"
+- !private "ConstraintAttributes"
+- "ConstraintItem"
+- "Constraint"
+- "ConstraintDescriptionEditable"
+- "LayoutSupport"
+- "ConcreteConstraint"
+- !private "fatalError"
+- !private ">"
+- "CGPoint"
+- "UInt"
+- "Int"
+- "String"
+- "Float"
+- !private "/"
+- "Double"
+- "ConstraintDescriptionRelatable"
+- "ConstraintDescriptionExtendable"
+- !private "-"
+- !private "+="
+- !private "!="
+- !private "StringLiteralType"
+- "View"
+- "CGSize"
+- "ConstraintDescription"
+- "EdgeInsets"
+depends-member:
+- ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "ConcreteConstraint"]
+- !private ["Ps9AnyObject", "ConstraintAttributes"]
+- !private ["Ps9AnyObject", "ConstraintItem"]
+- !private ["Ps9AnyObject", "EdgeInsets"]
+- ["Ps9AnyObject", "Float"]
+- !private ["Ps9AnyObject", "NSException"]
+- !private ["Ps9AnyObject", "addConstraint"]
+- !private ["Ps9AnyObject", "attributes"]
+- ["Ps9AnyObject", "baseline"]
+- ["Ps9AnyObject", "bottom"]
+- ["Ps9AnyObject", "bottomMargin"]
+- ["Ps9AnyObject", "centerX"]
+- ["Ps9AnyObject", "centerXWithinMargins"]
+- ["Ps9AnyObject", "centerY"]
+- ["Ps9AnyObject", "centerYWithinMargins"]
+- !private ["Ps9AnyObject", "concreteConstraint"]
+- !private ["Ps9AnyObject", "constant"]
+- !private ["Ps9AnyObject", "constrainTo"]
+- ["Ps9AnyObject", "constraint"]
+- ["Ps9AnyObject", "dividedBy"]
+- ["Ps9AnyObject", "equalTo"]
+- !private ["Ps9AnyObject", "fatalError"]
+- ["Ps9AnyObject", "firstBaseline"]
+- !private ["Ps9AnyObject", "fromItem"]
+- ["Ps9AnyObject", "greaterThanOrEqualTo"]
+- ["Ps9AnyObject", "height"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "inset"]
+- !private ["Ps9AnyObject", "label"]
+- ["Ps9AnyObject", "labeled"]
+- ["Ps9AnyObject", "leading"]
+- ["Ps9AnyObject", "leadingMargin"]
+- ["Ps9AnyObject", "left"]
+- ["Ps9AnyObject", "leftMargin"]
+- ["Ps9AnyObject", "lessThanOrEqualTo"]
+- ["Ps9AnyObject", "multipliedBy"]
+- !private ["Ps9AnyObject", "multiplier"]
+- ["Ps9AnyObject", "offset"]
+- ["Ps9AnyObject", "priority"]
+- ["Ps9AnyObject", "priorityHigh"]
+- ["Ps9AnyObject", "priorityLow"]
+- ["Ps9AnyObject", "priorityMedium"]
+- ["Ps9AnyObject", "priorityRequired"]
+- !private ["Ps9AnyObject", "raise"]
+- !private ["Ps9AnyObject", "relation"]
+- ["Ps9AnyObject", "right"]
+- ["Ps9AnyObject", "rightMargin"]
+- !private ["Ps9AnyObject", "toItem"]
+- ["Ps9AnyObject", "top"]
+- ["Ps9AnyObject", "topMargin"]
+- ["Ps9AnyObject", "trailing"]
+- ["Ps9AnyObject", "trailingMargin"]
+- ["Ps9AnyObject", "width"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "IndexDistance"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- ["VSC7CGPoint", "deinit"]
+- ["VSC6CGSize", "deinit"]
+- !private ["Ps7CVarArg", "IndexDistance"]
+- !private ["Ps7CVarArg", "count"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "raise"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "count"]
+- ["Ps10Comparable", "init"]
+- ["C7SnapKit18ConcreteConstraint", "deinit"]
+- !private ["C7SnapKit18ConcreteConstraint", "init"]
+- !private ["C7SnapKit10Constraint", "deinit"]
+- !private ["V7SnapKit20ConstraintAttributes", "Baseline"]
+- !private ["V7SnapKit20ConstraintAttributes", "Bottom"]
+- !private ["V7SnapKit20ConstraintAttributes", "BottomMargin"]
+- !private ["V7SnapKit20ConstraintAttributes", "CenterX"]
+- !private ["V7SnapKit20ConstraintAttributes", "CenterXWithinMargins"]
+- !private ["V7SnapKit20ConstraintAttributes", "CenterY"]
+- !private ["V7SnapKit20ConstraintAttributes", "CenterYWithinMargins"]
+- !private ["V7SnapKit20ConstraintAttributes", "FirstBaseline"]
+- !private ["V7SnapKit20ConstraintAttributes", "Height"]
+- !private ["V7SnapKit20ConstraintAttributes", "Leading"]
+- !private ["V7SnapKit20ConstraintAttributes", "LeadingMargin"]
+- !private ["V7SnapKit20ConstraintAttributes", "Left"]
+- !private ["V7SnapKit20ConstraintAttributes", "LeftMargin"]
+- !private ["V7SnapKit20ConstraintAttributes", "None"]
+- !private ["V7SnapKit20ConstraintAttributes", "Right"]
+- !private ["V7SnapKit20ConstraintAttributes", "RightMargin"]
+- !private ["V7SnapKit20ConstraintAttributes", "Top"]
+- !private ["V7SnapKit20ConstraintAttributes", "TopMargin"]
+- !private ["V7SnapKit20ConstraintAttributes", "Trailing"]
+- !private ["V7SnapKit20ConstraintAttributes", "TrailingMargin"]
+- !private ["V7SnapKit20ConstraintAttributes", "Width"]
+- ["V7SnapKit20ConstraintAttributes", "deinit"]
+- !private ["V7SnapKit20ConstraintAttributes", "layoutAttributes"]
+- ["C7SnapKit21ConstraintDescription", "CGFloat"]
+- ["C7SnapKit21ConstraintDescription", "CGPoint"]
+- ["C7SnapKit21ConstraintDescription", "CGSize"]
+- ["C7SnapKit21ConstraintDescription", "ConcreteConstraint"]
+- ["C7SnapKit21ConstraintDescription", "Constraint"]
+- !private ["C7SnapKit21ConstraintDescription", "ConstraintAttributes"]
+- !private ["C7SnapKit21ConstraintDescription", "ConstraintDescription"]
+- ["C7SnapKit21ConstraintDescription", "ConstraintDescriptionEditable"]
+- ["C7SnapKit21ConstraintDescription", "ConstraintDescriptionExtendable"]
+- ["C7SnapKit21ConstraintDescription", "ConstraintDescriptionFinalizable"]
+- ["C7SnapKit21ConstraintDescription", "ConstraintItem"]
+- ["C7SnapKit21ConstraintDescription", "ConstraintRelation"]
+- ["C7SnapKit21ConstraintDescription", "Double"]
+- ["C7SnapKit21ConstraintDescription", "EdgeInsets"]
+- ["C7SnapKit21ConstraintDescription", "Float"]
+- ["C7SnapKit21ConstraintDescription", "Int"]
+- ["C7SnapKit21ConstraintDescription", "LayoutSupport"]
+- !private ["C7SnapKit21ConstraintDescription", "NSException"]
+- ["C7SnapKit21ConstraintDescription", "NSLayoutAnchor"]
+- ["C7SnapKit21ConstraintDescription", "String"]
+- ["C7SnapKit21ConstraintDescription", "UInt"]
+- ["C7SnapKit21ConstraintDescription", "View"]
+- !private ["C7SnapKit21ConstraintDescription", "addConstraint"]
+- ["C7SnapKit21ConstraintDescription", "baseline"]
+- ["C7SnapKit21ConstraintDescription", "bottom"]
+- ["C7SnapKit21ConstraintDescription", "bottomMargin"]
+- ["C7SnapKit21ConstraintDescription", "centerX"]
+- ["C7SnapKit21ConstraintDescription", "centerXWithinMargins"]
+- ["C7SnapKit21ConstraintDescription", "centerY"]
+- ["C7SnapKit21ConstraintDescription", "centerYWithinMargins"]
+- !private ["C7SnapKit21ConstraintDescription", "concreteConstraint"]
+- !private ["C7SnapKit21ConstraintDescription", "constant"]
+- !private ["C7SnapKit21ConstraintDescription", "constrainTo"]
+- ["C7SnapKit21ConstraintDescription", "constraint"]
+- ["C7SnapKit21ConstraintDescription", "deinit"]
+- ["C7SnapKit21ConstraintDescription", "dividedBy"]
+- ["C7SnapKit21ConstraintDescription", "equalTo"]
+- !private ["C7SnapKit21ConstraintDescription", "fatalError"]
+- ["C7SnapKit21ConstraintDescription", "firstBaseline"]
+- !private ["C7SnapKit21ConstraintDescription", "fromItem"]
+- ["C7SnapKit21ConstraintDescription", "greaterThanOrEqualTo"]
+- ["C7SnapKit21ConstraintDescription", "height"]
+- ["C7SnapKit21ConstraintDescription", "init"]
+- ["C7SnapKit21ConstraintDescription", "inset"]
+- ["C7SnapKit21ConstraintDescription", "label"]
+- ["C7SnapKit21ConstraintDescription", "labeled"]
+- ["C7SnapKit21ConstraintDescription", "leading"]
+- ["C7SnapKit21ConstraintDescription", "leadingMargin"]
+- ["C7SnapKit21ConstraintDescription", "left"]
+- ["C7SnapKit21ConstraintDescription", "leftMargin"]
+- ["C7SnapKit21ConstraintDescription", "lessThanOrEqualTo"]
+- ["C7SnapKit21ConstraintDescription", "multipliedBy"]
+- !private ["C7SnapKit21ConstraintDescription", "multiplier"]
+- ["C7SnapKit21ConstraintDescription", "offset"]
+- ["C7SnapKit21ConstraintDescription", "priority"]
+- ["C7SnapKit21ConstraintDescription", "priorityHigh"]
+- ["C7SnapKit21ConstraintDescription", "priorityLow"]
+- ["C7SnapKit21ConstraintDescription", "priorityMedium"]
+- ["C7SnapKit21ConstraintDescription", "priorityRequired"]
+- !private ["C7SnapKit21ConstraintDescription", "relation"]
+- ["C7SnapKit21ConstraintDescription", "right"]
+- ["C7SnapKit21ConstraintDescription", "rightMargin"]
+- !private ["C7SnapKit21ConstraintDescription", "toItem"]
+- ["C7SnapKit21ConstraintDescription", "top"]
+- ["C7SnapKit21ConstraintDescription", "topMargin"]
+- ["C7SnapKit21ConstraintDescription", "trailing"]
+- ["C7SnapKit21ConstraintDescription", "trailingMargin"]
+- ["C7SnapKit21ConstraintDescription", "width"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "CGFloat"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "CGPoint"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "CGSize"]
+- !private ["P7SnapKit29ConstraintDescriptionEditable", "ConcreteConstraint"]
+- !private ["P7SnapKit29ConstraintDescriptionEditable", "ConstraintAttributes"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "ConstraintDescriptionEditable"]
+- !private ["P7SnapKit29ConstraintDescriptionEditable", "ConstraintItem"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "Double"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "EdgeInsets"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "Float"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "Int"]
+- !private ["P7SnapKit29ConstraintDescriptionEditable", "NSException"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "UInt"]
+- !private ["P7SnapKit29ConstraintDescriptionEditable", "addConstraint"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "baseline"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "bottom"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "bottomMargin"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "centerX"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "centerXWithinMargins"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "centerY"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "centerYWithinMargins"]
+- !private ["P7SnapKit29ConstraintDescriptionEditable", "concreteConstraint"]
+- !private ["P7SnapKit29ConstraintDescriptionEditable", "constant"]
+- !private ["P7SnapKit29ConstraintDescriptionEditable", "constrainTo"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "constraint"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "dividedBy"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "equalTo"]
+- !private ["P7SnapKit29ConstraintDescriptionEditable", "fatalError"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "firstBaseline"]
+- !private ["P7SnapKit29ConstraintDescriptionEditable", "fromItem"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "greaterThanOrEqualTo"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "height"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "inset"]
+- !private ["P7SnapKit29ConstraintDescriptionEditable", "label"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "labeled"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "leading"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "leadingMargin"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "left"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "leftMargin"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "lessThanOrEqualTo"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "multipliedBy"]
+- !private ["P7SnapKit29ConstraintDescriptionEditable", "multiplier"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "offset"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "priority"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "priorityHigh"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "priorityLow"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "priorityMedium"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "priorityRequired"]
+- !private ["P7SnapKit29ConstraintDescriptionEditable", "relation"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "right"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "rightMargin"]
+- !private ["P7SnapKit29ConstraintDescriptionEditable", "toItem"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "top"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "topMargin"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "trailing"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "trailingMargin"]
+- ["P7SnapKit29ConstraintDescriptionEditable", "width"]
+- ["P7SnapKit29ConstraintDescriptionEditable", ""]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "CGFloat"]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "ConcreteConstraint"]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "ConstraintAttributes"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "ConstraintDescriptionExtendable"]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "ConstraintItem"]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "EdgeInsets"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "Float"]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "NSException"]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "addConstraint"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "baseline"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "bottom"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "bottomMargin"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "centerX"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "centerXWithinMargins"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "centerY"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "centerYWithinMargins"]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "concreteConstraint"]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "constant"]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "constrainTo"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "constraint"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "dividedBy"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "equalTo"]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "fatalError"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "firstBaseline"]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "fromItem"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "greaterThanOrEqualTo"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "height"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "inset"]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "label"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "labeled"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "leading"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "leadingMargin"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "left"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "leftMargin"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "lessThanOrEqualTo"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "multipliedBy"]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "multiplier"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "offset"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "priority"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "priorityHigh"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "priorityLow"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "priorityMedium"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "priorityRequired"]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "relation"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "right"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "rightMargin"]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "toItem"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "top"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "topMargin"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "trailing"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "trailingMargin"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", "width"]
+- ["P7SnapKit31ConstraintDescriptionExtendable", ""]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "CGFloat"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "CGPoint"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "CGSize"]
+- !private ["P7SnapKit32ConstraintDescriptionFinalizable", "ConcreteConstraint"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "Constraint"]
+- !private ["P7SnapKit32ConstraintDescriptionFinalizable", "ConstraintAttributes"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "ConstraintDescriptionEditable"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "ConstraintDescriptionFinalizable"]
+- !private ["P7SnapKit32ConstraintDescriptionFinalizable", "ConstraintItem"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "Double"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "EdgeInsets"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "Float"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "Int"]
+- !private ["P7SnapKit32ConstraintDescriptionFinalizable", "NSException"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "String"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "UInt"]
+- !private ["P7SnapKit32ConstraintDescriptionFinalizable", "addConstraint"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "baseline"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "bottom"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "bottomMargin"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "centerX"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "centerXWithinMargins"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "centerY"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "centerYWithinMargins"]
+- !private ["P7SnapKit32ConstraintDescriptionFinalizable", "concreteConstraint"]
+- !private ["P7SnapKit32ConstraintDescriptionFinalizable", "constant"]
+- !private ["P7SnapKit32ConstraintDescriptionFinalizable", "constrainTo"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "constraint"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "dividedBy"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "equalTo"]
+- !private ["P7SnapKit32ConstraintDescriptionFinalizable", "fatalError"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "firstBaseline"]
+- !private ["P7SnapKit32ConstraintDescriptionFinalizable", "fromItem"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "greaterThanOrEqualTo"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "height"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "inset"]
+- !private ["P7SnapKit32ConstraintDescriptionFinalizable", "label"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "labeled"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "leading"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "leadingMargin"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "left"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "leftMargin"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "lessThanOrEqualTo"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "multipliedBy"]
+- !private ["P7SnapKit32ConstraintDescriptionFinalizable", "multiplier"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "offset"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "priority"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "priorityHigh"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "priorityLow"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "priorityMedium"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "priorityRequired"]
+- !private ["P7SnapKit32ConstraintDescriptionFinalizable", "relation"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "right"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "rightMargin"]
+- !private ["P7SnapKit32ConstraintDescriptionFinalizable", "toItem"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "top"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "topMargin"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "trailing"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "trailingMargin"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", "width"]
+- ["P7SnapKit32ConstraintDescriptionFinalizable", ""]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "CGFloat"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "CGPoint"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "CGSize"]
+- !private ["P7SnapKit33ConstraintDescriptionPriortizable", "ConcreteConstraint"]
+- !private ["P7SnapKit33ConstraintDescriptionPriortizable", "ConstraintAttributes"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "ConstraintDescriptionEditable"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "ConstraintDescriptionFinalizable"]
+- !private ["P7SnapKit33ConstraintDescriptionPriortizable", "ConstraintItem"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "Double"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "EdgeInsets"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "Float"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "Int"]
+- !private ["P7SnapKit33ConstraintDescriptionPriortizable", "NSException"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "UInt"]
+- !private ["P7SnapKit33ConstraintDescriptionPriortizable", "addConstraint"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "baseline"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "bottom"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "bottomMargin"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "centerX"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "centerXWithinMargins"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "centerY"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "centerYWithinMargins"]
+- !private ["P7SnapKit33ConstraintDescriptionPriortizable", "concreteConstraint"]
+- !private ["P7SnapKit33ConstraintDescriptionPriortizable", "constant"]
+- !private ["P7SnapKit33ConstraintDescriptionPriortizable", "constrainTo"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "constraint"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "dividedBy"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "equalTo"]
+- !private ["P7SnapKit33ConstraintDescriptionPriortizable", "fatalError"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "firstBaseline"]
+- !private ["P7SnapKit33ConstraintDescriptionPriortizable", "fromItem"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "greaterThanOrEqualTo"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "height"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "inset"]
+- !private ["P7SnapKit33ConstraintDescriptionPriortizable", "label"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "labeled"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "leading"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "leadingMargin"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "left"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "leftMargin"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "lessThanOrEqualTo"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "multipliedBy"]
+- !private ["P7SnapKit33ConstraintDescriptionPriortizable", "multiplier"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "offset"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "priority"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "priorityHigh"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "priorityLow"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "priorityMedium"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "priorityRequired"]
+- !private ["P7SnapKit33ConstraintDescriptionPriortizable", "relation"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "right"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "rightMargin"]
+- !private ["P7SnapKit33ConstraintDescriptionPriortizable", "toItem"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "top"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "topMargin"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "trailing"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "trailingMargin"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", "width"]
+- ["P7SnapKit33ConstraintDescriptionPriortizable", ""]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "CGFloat"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "CGPoint"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "CGSize"]
+- !private ["P7SnapKit30ConstraintDescriptionRelatable", "ConcreteConstraint"]
+- !private ["P7SnapKit30ConstraintDescriptionRelatable", "ConstraintAttributes"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "ConstraintDescriptionEditable"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "ConstraintDescriptionExtendable"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "ConstraintItem"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "Double"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "EdgeInsets"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "Float"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "Int"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "LayoutSupport"]
+- !private ["P7SnapKit30ConstraintDescriptionRelatable", "NSException"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "NSLayoutAnchor"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "UInt"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "View"]
+- !private ["P7SnapKit30ConstraintDescriptionRelatable", "addConstraint"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "baseline"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "bottom"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "bottomMargin"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "centerX"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "centerXWithinMargins"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "centerY"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "centerYWithinMargins"]
+- !private ["P7SnapKit30ConstraintDescriptionRelatable", "concreteConstraint"]
+- !private ["P7SnapKit30ConstraintDescriptionRelatable", "constant"]
+- !private ["P7SnapKit30ConstraintDescriptionRelatable", "constrainTo"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "constraint"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "dividedBy"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "equalTo"]
+- !private ["P7SnapKit30ConstraintDescriptionRelatable", "fatalError"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "firstBaseline"]
+- !private ["P7SnapKit30ConstraintDescriptionRelatable", "fromItem"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "greaterThanOrEqualTo"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "height"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "inset"]
+- !private ["P7SnapKit30ConstraintDescriptionRelatable", "label"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "labeled"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "leading"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "leadingMargin"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "left"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "leftMargin"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "lessThanOrEqualTo"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "multipliedBy"]
+- !private ["P7SnapKit30ConstraintDescriptionRelatable", "multiplier"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "offset"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "priority"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "priorityHigh"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "priorityLow"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "priorityMedium"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "priorityRequired"]
+- !private ["P7SnapKit30ConstraintDescriptionRelatable", "relation"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "right"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "rightMargin"]
+- !private ["P7SnapKit30ConstraintDescriptionRelatable", "toItem"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "top"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "topMargin"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "trailing"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "trailingMargin"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", "width"]
+- ["P7SnapKit30ConstraintDescriptionRelatable", ""]
+- !private ["C7SnapKit14ConstraintItem", "attributes"]
+- ["C7SnapKit14ConstraintItem", "deinit"]
+- !private ["C7SnapKit14ConstraintItem", "init"]
+- !private ["O7SnapKit18ConstraintRelation", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "raise"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "raise"]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "bottom"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "left"]
+- !private ["Ps9Equatable", "raise"]
+- !private ["Ps9Equatable", "right"]
+- !private ["Ps9Equatable", "top"]
+- !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps25ExpressibleByFloatLiteral", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Sf", "deinit"]
+- ["Sf", "init"]
+- ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "raise"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "count"]
+- ["Si", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "IndexDistance"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps16MutableIndexable", "IndexDistance"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "raise"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "raise"]
+- !private ["CSo11NSException", "init"]
+- !private ["CSo11NSException", "raise"]
+- !private ["VSC15NSExceptionName", "deinit"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "raise"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "raise"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "count"]
+- !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps25RangeReplaceableIndexable", "IndexDistance"]
+- !private ["Ps25RangeReplaceableIndexable", "count"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "count"]
+- ["Ps12SignedNumber", "init"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["Ps10Strideable", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["VSC12UIEdgeInsets", "bottom"]
+- ["VSC12UIEdgeInsets", "deinit"]
+- !private ["VSC12UIEdgeInsets", "init"]
+- !private ["VSC12UIEdgeInsets", "left"]
+- !private ["VSC12UIEdgeInsets", "right"]
+- !private ["VSC12UIEdgeInsets", "top"]
+- ["Su", "deinit"]
+- !private ["Ps14_ArrayProtocol", "IndexDistance"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- ["Ps15_CVarArgAligned", "init"]
+- ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_DestructorSafeContainer", "IndexDistance"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "raise"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Vs26_OptionalNilComparisonType", "deinit"]
+- ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Ps19BinaryFloatingPoint"
+- "Sb"
+- "V12CoreGraphics7CGFloat"
+- "VSC7CGPoint"
+- "VSC6CGSize"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "C7SnapKit18ConcreteConstraint"
+- !private "C7SnapKit10Constraint"
+- "V7SnapKit20ConstraintAttributes"
+- "C7SnapKit21ConstraintDescription"
+- "P7SnapKit29ConstraintDescriptionEditable"
+- "P7SnapKit31ConstraintDescriptionExtendable"
+- "P7SnapKit32ConstraintDescriptionFinalizable"
+- "P7SnapKit33ConstraintDescriptionPriortizable"
+- "P7SnapKit30ConstraintDescriptionRelatable"
+- "C7SnapKit14ConstraintItem"
+- !private "O7SnapKit18ConstraintRelation"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Sf"
+- "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "Si"
+- "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo11NSException"
+- !private "VSC15NSExceptionName"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Os5Never"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps8Sequence"
+- "Ps12SignedNumber"
+- "Vs12StaticString"
+- "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "VSC12UIEdgeInsets"
+- "Su"
+- !private "Ps14_ArrayProtocol"
+- "Ps15_CVarArgAligned"
+- "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps33_ExpressibleByBuiltinFloatLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- "Vs26_OptionalNilComparisonType"
+- "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Pods.build/Debug-iphoneos/SnapKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "4f5c2296ff2c2b436f90b130a3664291"

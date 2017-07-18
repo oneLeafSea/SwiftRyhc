@@ -1,0 +1,466 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RequestParam"
+provides-nominal:
+- "CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam"
+provides-member:
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", ""]
+provides-dynamic-lookup:
+- "userName"
+- "userId"
+- "acToken"
+- "identifier"
+- "uuid"
+- "getIdentifier"
+- "user"
+- "setDic"
+- "orgid"
+- "mobile"
+- "getRequestParam"
+- "appVerson"
+depends-top-level:
+- !private "Dictionary"
+- "CastingPrecedence"
+- "AssignmentPrecedence"
+- !private "=="
+- !private "Bundle"
+- !private "StringLiteralType"
+- "RequestParam"
+- "NSObject"
+- "UserDefaults"
+- "String"
+- !private "UUID"
+depends-member:
+- !private ["Ps9AnyObject", "Bundle"]
+- !private ["Ps9AnyObject", "UUID"]
+- ["Ps9AnyObject", "UserDefaults"]
+- ["Ps9AnyObject", "acToken"]
+- ["Ps9AnyObject", "appVerson"]
+- ["Ps9AnyObject", "getIdentifier"]
+- ["Ps9AnyObject", "getRequestParam"]
+- ["Ps9AnyObject", "identifier"]
+- !private ["Ps9AnyObject", "infoDictionary"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "main"]
+- ["Ps9AnyObject", "mobile"]
+- ["Ps9AnyObject", "orgid"]
+- ["Ps9AnyObject", "setDic"]
+- ["Ps9AnyObject", "standard"]
+- ["Ps9AnyObject", "user"]
+- ["Ps9AnyObject", "userId"]
+- ["Ps9AnyObject", "userName"]
+- ["Ps9AnyObject", "uuid"]
+- !private ["Ps9AnyObject", "value"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["CSo6Bundle", "deinit"]
+- !private ["CSo6Bundle", "infoDictionary"]
+- !private ["CSo6Bundle", "main"]
+- !private ["Ps7CVarArg", "Bundle"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "UUID"]
+- ["Ps7CVarArg", "UserDefaults"]
+- !private ["Ps7CVarArg", "Value"]
+- ["Ps7CVarArg", "acToken"]
+- ["Ps7CVarArg", "appVerson"]
+- ["Ps7CVarArg", "getIdentifier"]
+- ["Ps7CVarArg", "getRequestParam"]
+- ["Ps7CVarArg", "identifier"]
+- !private ["Ps7CVarArg", "infoDictionary"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "main"]
+- ["Ps7CVarArg", "mobile"]
+- ["Ps7CVarArg", "orgid"]
+- ["Ps7CVarArg", "setDic"]
+- ["Ps7CVarArg", "standard"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", "user"]
+- ["Ps7CVarArg", "userId"]
+- ["Ps7CVarArg", "userName"]
+- ["Ps7CVarArg", "uuid"]
+- !private ["Ps7CVarArg", "value"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Bundle"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "UUID"]
+- ["Ps28CustomDebugStringConvertible", "UserDefaults"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps28CustomDebugStringConvertible", "acToken"]
+- ["Ps28CustomDebugStringConvertible", "appVerson"]
+- ["Ps28CustomDebugStringConvertible", "getIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "getRequestParam"]
+- ["Ps28CustomDebugStringConvertible", "identifier"]
+- !private ["Ps28CustomDebugStringConvertible", "infoDictionary"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- ["Ps28CustomDebugStringConvertible", "mobile"]
+- ["Ps28CustomDebugStringConvertible", "orgid"]
+- ["Ps28CustomDebugStringConvertible", "setDic"]
+- ["Ps28CustomDebugStringConvertible", "standard"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "user"]
+- ["Ps28CustomDebugStringConvertible", "userId"]
+- ["Ps28CustomDebugStringConvertible", "userName"]
+- ["Ps28CustomDebugStringConvertible", "uuid"]
+- !private ["Ps28CustomDebugStringConvertible", "uuidString"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "uuidString"]
+- !private ["Ps23CustomStringConvertible", "Bundle"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "UUID"]
+- ["Ps23CustomStringConvertible", "UserDefaults"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "acToken"]
+- ["Ps23CustomStringConvertible", "appVerson"]
+- ["Ps23CustomStringConvertible", "getIdentifier"]
+- ["Ps23CustomStringConvertible", "getRequestParam"]
+- ["Ps23CustomStringConvertible", "identifier"]
+- !private ["Ps23CustomStringConvertible", "infoDictionary"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- ["Ps23CustomStringConvertible", "mobile"]
+- ["Ps23CustomStringConvertible", "orgid"]
+- ["Ps23CustomStringConvertible", "setDic"]
+- ["Ps23CustomStringConvertible", "standard"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "user"]
+- ["Ps23CustomStringConvertible", "userId"]
+- ["Ps23CustomStringConvertible", "userName"]
+- ["Ps23CustomStringConvertible", "uuid"]
+- !private ["Ps23CustomStringConvertible", "uuidString"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "Bundle"]
+- !private ["Ps9Equatable", "UUID"]
+- ["Ps9Equatable", "UserDefaults"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "acToken"]
+- ["Ps9Equatable", "appVerson"]
+- ["Ps9Equatable", "getIdentifier"]
+- ["Ps9Equatable", "getRequestParam"]
+- ["Ps9Equatable", "identifier"]
+- !private ["Ps9Equatable", "infoDictionary"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "main"]
+- ["Ps9Equatable", "mobile"]
+- ["Ps9Equatable", "orgid"]
+- ["Ps9Equatable", "setDic"]
+- ["Ps9Equatable", "standard"]
+- ["Ps9Equatable", "user"]
+- ["Ps9Equatable", "userId"]
+- ["Ps9Equatable", "userName"]
+- ["Ps9Equatable", "uuid"]
+- !private ["Ps9Equatable", "uuidString"]
+- !private ["Ps9Equatable", "value"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Bundle"]
+- !private ["Ps8Hashable", "UUID"]
+- ["Ps8Hashable", "UserDefaults"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "acToken"]
+- ["Ps8Hashable", "appVerson"]
+- ["Ps8Hashable", "getIdentifier"]
+- ["Ps8Hashable", "getRequestParam"]
+- ["Ps8Hashable", "identifier"]
+- !private ["Ps8Hashable", "infoDictionary"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "main"]
+- ["Ps8Hashable", "mobile"]
+- ["Ps8Hashable", "orgid"]
+- ["Ps8Hashable", "setDic"]
+- ["Ps8Hashable", "standard"]
+- ["Ps8Hashable", "user"]
+- ["Ps8Hashable", "userId"]
+- ["Ps8Hashable", "userName"]
+- ["Ps8Hashable", "uuid"]
+- !private ["Ps8Hashable", "uuidString"]
+- !private ["Ps8Hashable", "value"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Bundle"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UUID"]
+- ["CSo8NSObject", "UserDefaults"]
+- ["CSo8NSObject", "acToken"]
+- ["CSo8NSObject", "appVerson"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "getIdentifier"]
+- ["CSo8NSObject", "getRequestParam"]
+- ["CSo8NSObject", "identifier"]
+- !private ["CSo8NSObject", "infoDictionary"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "mobile"]
+- ["CSo8NSObject", "orgid"]
+- ["CSo8NSObject", "setDic"]
+- ["CSo8NSObject", "standard"]
+- ["CSo8NSObject", "user"]
+- ["CSo8NSObject", "userId"]
+- ["CSo8NSObject", "userName"]
+- ["CSo8NSObject", "uuid"]
+- !private ["CSo8NSObject", "value"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Bundle"]
+- !private ["PSo16NSObjectProtocol", "UUID"]
+- ["PSo16NSObjectProtocol", "UserDefaults"]
+- ["PSo16NSObjectProtocol", "acToken"]
+- ["PSo16NSObjectProtocol", "appVerson"]
+- ["PSo16NSObjectProtocol", "getIdentifier"]
+- ["PSo16NSObjectProtocol", "getRequestParam"]
+- ["PSo16NSObjectProtocol", "identifier"]
+- !private ["PSo16NSObjectProtocol", "infoDictionary"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- ["PSo16NSObjectProtocol", "mobile"]
+- ["PSo16NSObjectProtocol", "orgid"]
+- ["PSo16NSObjectProtocol", "setDic"]
+- ["PSo16NSObjectProtocol", "standard"]
+- ["PSo16NSObjectProtocol", "user"]
+- ["PSo16NSObjectProtocol", "userId"]
+- ["PSo16NSObjectProtocol", "userName"]
+- ["PSo16NSObjectProtocol", "uuid"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "uuidString"]
+- !private ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "Bundle"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "String"]
+- !private ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "UUID"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "UserDefaults"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "acToken"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "appVerson"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "deinit"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "getIdentifier"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "getRequestParam"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "identifier"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "init"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "mobile"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "orgid"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "setDic"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "user"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "userId"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "userName"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam", "uuid"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["V10Foundation4UUID", "deinit"]
+- !private ["V10Foundation4UUID", "init"]
+- !private ["V10Foundation4UUID", "uuidString"]
+- ["CSo12UserDefaults", "deinit"]
+- ["CSo12UserDefaults", "standard"]
+- !private ["CSo12UserDefaults", "value"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Bundle"]
+- !private ["Ps9_Hashable", "UUID"]
+- ["Ps9_Hashable", "UserDefaults"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "acToken"]
+- ["Ps9_Hashable", "appVerson"]
+- ["Ps9_Hashable", "getIdentifier"]
+- ["Ps9_Hashable", "getRequestParam"]
+- ["Ps9_Hashable", "identifier"]
+- !private ["Ps9_Hashable", "infoDictionary"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "main"]
+- ["Ps9_Hashable", "mobile"]
+- ["Ps9_Hashable", "orgid"]
+- ["Ps9_Hashable", "setDic"]
+- ["Ps9_Hashable", "standard"]
+- ["Ps9_Hashable", "user"]
+- ["Ps9_Hashable", "userId"]
+- ["Ps9_Hashable", "userName"]
+- ["Ps9_Hashable", "uuid"]
+- !private ["Ps9_Hashable", "uuidString"]
+- !private ["Ps9_Hashable", "value"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "uuidString"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "CSo6Bundle"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "P10Foundation20ReferenceConvertible"
+- "CX28swift_bdChqJEaJmDblvatDDbzJq12RequestParam"
+- !private "Ps8Sequence"
+- !private "Vs5Slice"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "V10Foundation4UUID"
+- "CSo12UserDefaults"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/Bridge.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFImageDownloader.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFAutoPurgingImageCache.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKIonIcons.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKZocial.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKFoundationIcons.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKFontAwesome.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKIcon.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FontAwesomeKit.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FontAwesomeKit-umbrella.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Modules/module.modulemap"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/Util/Combines.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "604cac8f7f21bd46c440009dd3db3e6f"

@@ -1,0 +1,6 @@
+framework module Pods_______swift {
+  umbrella header "Pods-珠海人员核查swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

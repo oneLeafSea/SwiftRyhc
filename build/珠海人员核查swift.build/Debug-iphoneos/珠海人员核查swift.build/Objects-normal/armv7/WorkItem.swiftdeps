@@ -1,0 +1,88 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WorkItem"
+provides-nominal:
+- "CX28swift_bdChqJEaJmDblvatDDbzJq8WorkItem"
+provides-member:
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq8WorkItem", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "NSObject"
+- "WorkItem"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq8WorkItem", "deinit"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq8WorkItem", "init"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CX28swift_bdChqJEaJmDblvatDDbzJq8WorkItem"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/Bridge.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFImageDownloader.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFAutoPurgingImageCache.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKIonIcons.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKZocial.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKFoundationIcons.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKFontAwesome.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKIcon.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FontAwesomeKit.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FontAwesomeKit-umbrella.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Modules/module.modulemap"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+interface-hash: "76dbccd1760d2fa1a589c70bcef27bb0"

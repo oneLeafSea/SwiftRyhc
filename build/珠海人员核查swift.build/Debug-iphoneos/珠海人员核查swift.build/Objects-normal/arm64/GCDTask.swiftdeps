@@ -1,0 +1,190 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GCDTask"
+provides-nominal:
+- "CX28swift_bdChqJEaJmDblvatDDbzJq7GCDTask"
+provides-member:
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq7GCDTask", ""]
+provides-dynamic-lookup:
+- "backQueue"
+depends-top-level:
+- "StringLiteralType"
+- "DispatchWorkItem"
+- "NSObject"
+- "DispatchQueue"
+- "GCDTask"
+depends-member:
+- ["Ps9AnyObject", "DispatchQueue"]
+- ["Ps9AnyObject", "DispatchWorkItem"]
+- ["Ps9AnyObject", "backQueue"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "queueItem"]
+- ["Ps9AnyObject", ""]
+- ["Ps7CVarArg", "DispatchQueue"]
+- ["Ps7CVarArg", "DispatchWorkItem"]
+- ["Ps7CVarArg", "backQueue"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "queueItem"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- ["Ps28CustomDebugStringConvertible", "DispatchWorkItem"]
+- ["Ps28CustomDebugStringConvertible", "backQueue"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "queueItem"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "DispatchQueue"]
+- ["Ps23CustomStringConvertible", "DispatchWorkItem"]
+- ["Ps23CustomStringConvertible", "backQueue"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "queueItem"]
+- ["Ps23CustomStringConvertible", ""]
+- ["CSo14DispatchObject", "init"]
+- ["CSo13DispatchQueue", "deinit"]
+- ["CSo13DispatchQueue", "init"]
+- ["C8Dispatch16DispatchWorkItem", "deinit"]
+- ["C8Dispatch16DispatchWorkItem", "init"]
+- ["Ps9Equatable", "DispatchQueue"]
+- ["Ps9Equatable", "DispatchWorkItem"]
+- ["Ps9Equatable", "backQueue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "queueItem"]
+- ["Ps9Equatable", ""]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq7GCDTask", "DispatchQueue"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq7GCDTask", "DispatchWorkItem"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq7GCDTask", "backQueue"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq7GCDTask", "deinit"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq7GCDTask", "init"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq7GCDTask", "queueItem"]
+- ["Ps8Hashable", "DispatchQueue"]
+- ["Ps8Hashable", "DispatchWorkItem"]
+- ["Ps8Hashable", "backQueue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "queueItem"]
+- ["Ps8Hashable", ""]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "DispatchQueue"]
+- ["CSo8NSObject", "DispatchWorkItem"]
+- ["CSo8NSObject", "backQueue"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "queueItem"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "DispatchQueue"]
+- ["PSo16NSObjectProtocol", "DispatchWorkItem"]
+- ["PSo16NSObjectProtocol", "backQueue"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "queueItem"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["CSo9OS_object", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "DispatchQueue"]
+- ["Ps9_Hashable", "DispatchWorkItem"]
+- ["Ps9_Hashable", "backQueue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "queueItem"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "CSo14DispatchObject"
+- "CSo13DispatchQueue"
+- "C8Dispatch16DispatchWorkItem"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "CX28swift_bdChqJEaJmDblvatDDbzJq7GCDTask"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "CSo9OS_object"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/Bridge.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFImageDownloader.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFAutoPurgingImageCache.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKIonIcons.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKZocial.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKFoundationIcons.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKFontAwesome.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKIcon.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FontAwesomeKit.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FontAwesomeKit-umbrella.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Modules/module.modulemap"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/Util/Combines.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "e7c1f9c39f5615577d4cb0f1e679b3d7"

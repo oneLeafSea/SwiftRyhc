@@ -1,0 +1,370 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Constants"
+- "ConstantNames"
+- "QueryState"
+- "UrlContants"
+- "QueryErr"
+- "ItemTAG"
+- "=="
+provides-nominal:
+- "VX28swift_bdChqJEaJmDblvatDDbzJq9Constants"
+- "VX28swift_bdChqJEaJmDblvatDDbzJq13ConstantNames"
+- "OX28swift_bdChqJEaJmDblvatDDbzJq10QueryState"
+- "VX28swift_bdChqJEaJmDblvatDDbzJq11UrlContants"
+- "OX28swift_bdChqJEaJmDblvatDDbzJq8QueryErr"
+- "VX28swift_bdChqJEaJmDblvatDDbzJq7ItemTAG"
+provides-member:
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq9Constants", ""]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq13ConstantNames", ""]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq10QueryState", ""]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq11UrlContants", ""]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq8QueryErr", ""]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq7ItemTAG", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "StringLiteralType"
+- "ConstantNames"
+- "UrlContants"
+- "QueryState"
+- "*"
+- "ItemTAG"
+- "String"
+- "IntegerLiteralType"
+- "UIScreen"
+- "FloatLiteralType"
+- "UIColor"
+- "QueryErr"
+- !private "~="
+- "Constants"
+- "Error"
+- "=="
+depends-member:
+- ["Ps9AnyObject", "bounds"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "main"]
+- ["Ps9AnyObject", "uiColor"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["VSC6CGRect", "deinit"]
+- ["VSC6CGRect", "size"]
+- ["VSC6CGSize", "deinit"]
+- ["VSC6CGSize", "height"]
+- ["VSC6CGSize", "width"]
+- ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "main"]
+- ["Ps7CVarArg", "uiColor"]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq13ConstantNames", "AppCheckTask"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq13ConstantNames", "AppName"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq13ConstantNames", "AppVersion"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq13ConstantNames", "DataGetten"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq13ConstantNames", "init"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq9Constants", "Hor_spacing"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq9Constants", "InputColumn"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq9Constants", "InputRow"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq9Constants", "LineColor"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq9Constants", "ScreenHeight"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq9Constants", "ScreenWidth"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq9Constants", "SubWidth"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq9Constants", "SubmitBtnWidth"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq9Constants", "UIColor"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq9Constants", "UIScreen"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq9Constants", "Ver_spacing"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq9Constants", "init"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq9Constants", "lineSize"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
+- ["Ps28CustomDebugStringConvertible", "bounds"]
+- ["Ps28CustomDebugStringConvertible", "height"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "main"]
+- ["Ps28CustomDebugStringConvertible", "size"]
+- ["Ps28CustomDebugStringConvertible", "uiColor"]
+- ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "height"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "size"]
+- ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "height"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "size"]
+- ["Ps17CustomReflectable", "width"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "main"]
+- ["Ps23CustomStringConvertible", "uiColor"]
+- ["Ps9Equatable", "RawValue"]
+- ["Ps9Equatable", "_code"]
+- ["Ps9Equatable", "_domain"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_getEmbeddedNSError"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "_userInfo"]
+- ["Ps9Equatable", "bounds"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "main"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "size"]
+- ["Ps9Equatable", "uiColor"]
+- ["Ps9Equatable", "width"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_toAnyHashable"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "hashValue"]
+- ["Ps5Error", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "RawValue"]
+- ["Ps8Hashable", "_code"]
+- ["Ps8Hashable", "_domain"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_getEmbeddedNSError"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "_userInfo"]
+- ["Ps8Hashable", "bounds"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "main"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", "uiColor"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq7ItemTAG", "init"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq7ItemTAG", "norm_tag"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq7ItemTAG", "spec_tag"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "uiColor"]
+- ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "uiColor"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "bounds"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "uiColor"]
+- ["PSo16NSObjectProtocol", "bounds"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "main"]
+- ["PSo16NSObjectProtocol", "uiColor"]
+- ["PSo14NSSecureCoding", "init"]
+- ["PSo14NSSecureCoding", "uiColor"]
+- ["CSo8NSString", "init"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq8QueryErr", "=="]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq8QueryErr", "ALLDATA_NIL"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq8QueryErr", "COMPARERESULT_NIL"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq8QueryErr", "EXTDATA_NIL"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq8QueryErr", "RESULT_NIL"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq8QueryErr", "_code"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq8QueryErr", "_domain"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq8QueryErr", "_getEmbeddedNSError"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq8QueryErr", "_toAnyHashable"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq8QueryErr", "_userInfo"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq8QueryErr", "deinit"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq8QueryErr", "hashValue"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq10QueryState", "Query_Intime"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq10QueryState", "Query_default"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq10QueryState", "Query_false"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq10QueryState", "Query_success"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq10QueryState", "RawValue"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq10QueryState", "_toAnyHashable"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq10QueryState", "deinit"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq10QueryState", "hashValue"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq10QueryState", "init"]
+- ["OX28swift_bdChqJEaJmDblvatDDbzJq10QueryState", "rawValue"]
+- !private ["Vs5Range", "deinit"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["CSo7UIColor", "deinit"]
+- ["CSo7UIColor", "uiColor"]
+- ["CSo8UIScreen", "bounds"]
+- ["CSo8UIScreen", "deinit"]
+- ["CSo8UIScreen", "main"]
+- ["PSo18UITraitEnvironment", "bounds"]
+- ["PSo18UITraitEnvironment", "main"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq11UrlContants", "RYCONNECT_URL"]
+- ["VX28swift_bdChqJEaJmDblvatDDbzJq11UrlContants", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps26_ExpressibleByColorLiteral", "uiColor"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "RawValue"]
+- ["Ps9_Hashable", "_code"]
+- ["Ps9_Hashable", "_domain"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_getEmbeddedNSError"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "_userInfo"]
+- ["Ps9_Hashable", "bounds"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "main"]
+- ["Ps9_Hashable", "rawValue"]
+- ["Ps9_Hashable", "uiColor"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "V12CoreGraphics7CGFloat"
+- "VSC6CGRect"
+- "VSC6CGSize"
+- "Ps7CVarArg"
+- !private "Vs11ClosedRange"
+- "Ps10Comparable"
+- "VX28swift_bdChqJEaJmDblvatDDbzJq13ConstantNames"
+- "VX28swift_bdChqJEaJmDblvatDDbzJq9Constants"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "VX28swift_bdChqJEaJmDblvatDDbzJq7ItemTAG"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "OX28swift_bdChqJEaJmDblvatDDbzJq8QueryErr"
+- "OX28swift_bdChqJEaJmDblvatDDbzJq10QueryState"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "CSo7UIColor"
+- "CSo8UIScreen"
+- "PSo18UITraitEnvironment"
+- "VX28swift_bdChqJEaJmDblvatDDbzJq11UrlContants"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps26_ExpressibleByColorLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/Bridge.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFImageDownloader.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFAutoPurgingImageCache.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKIonIcons.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKZocial.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKFoundationIcons.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKFontAwesome.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKIcon.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FontAwesomeKit.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FontAwesomeKit-umbrella.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Modules/module.modulemap"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/Util/Combines.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "186dc7ff769ccfacd29dbf55e18a1518"

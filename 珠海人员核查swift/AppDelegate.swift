@@ -12,33 +12,87 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var state_URL : Bool = false
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+      self.window = UIWindow.init(frame: UIScreen.main.bounds)
+        
+      state_URL =  launchOptionWithUrlIsNotEmpty(launchOptions: launchOptions)
+      
+      if state_URL == false
+      {
+          let vc = ViewController()
+          let nav = UINavigationController.init(rootViewController: vc)
+          self.window?.backgroundColor = UIColor.white
+          self.window?.rootViewController = nav
+          self.window?.makeKeyAndVisible()
+      }
+       
+       Exception.exceptionDetails()
+        
         return true
     }
-
-    func applicationWillResignActive(_ application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+    
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.portrait
     }
-
-    func applicationDidEnterBackground(_ application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        if (url.host != nil)
+        {
+            let hostString = url.host
+            let user       = UserDefaults.standard
+            let dictionary:NSMutableDictionary = NSMutableDictionary.init()
+            let vcMain     = ViewController()
+            let navVC      = UINavigationController.init(rootViewController: vcMain)
+            let hostArray  = hostString?.components(separatedBy: "&")
+            
+            for hostItem:String in hostArray! {
+                let itemArray = hostItem.components(separatedBy: "=")
+                let itemKey   = itemArray[0]
+                let itemValue = itemArray[1]
+                dictionary.setValue(itemValue, forKey: itemKey)
+                user.setValue(itemValue, forKey: itemKey)
+                
+            }
+            
+            self.window = UIWindow.init(frame: UIScreen.main.bounds)
+            self.window?.backgroundColor = UIColor.clear
+            self.window?.rootViewController = navVC
+            self.window?.makeKeyAndVisible()
+        }
+        return true
     }
-
-    func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
-    }
-
-    func applicationDidBecomeActive(_ application: UIApplication) {
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    }
-
-    func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    
+    
+    
+    
+    
+    
+/*****************************************************************************/
+   func launchOptionWithUrlIsNotEmpty(launchOptions:[UIApplicationLaunchOptionsKey: Any]?) ->Bool
+    {
+        let user = UserDefaults.standard
+        user.removeObject(forKey: "userId")
+        user.removeObject(forKey: "accesstoken")
+        
+        if  (launchOptions?[UIApplicationLaunchOptionsKey.url] as! NSURL?) != nil{
+            state_URL = true
+            let alertVC = UIViewController.init()
+            alertVC.view.backgroundColor = UIColor.white
+            self.window?.rootViewController = alertVC
+            self.window?.makeKeyAndVisible()
+            
+            let alertControl = UIAlertController.init(title: "", message: "不能直接打开本程序，需要从警信平台打开", preferredStyle: UIAlertControllerStyle.alert)
+            let alertAction  = UIAlertAction.init(title: "确定", style: UIAlertActionStyle.default) { (alert: UIAlertAction) in
+                exit(0)
+            }
+            alertControl.addAction(alertAction)
+            alertVC.present(alertControl, animated: true, completion: nil)
+            
+        }
+        return state_URL
     }
 
 

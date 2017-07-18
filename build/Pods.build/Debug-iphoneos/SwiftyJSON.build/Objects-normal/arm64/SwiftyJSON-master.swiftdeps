@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "cfa2d7931ab2cff6613c6a96789b02e8"
+build_time: [551264589, 274225000]
+inputs:
+  "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/Pods/SwiftyJSON/Source/SwiftyJSON.swift": !dirty [551263297, 0]

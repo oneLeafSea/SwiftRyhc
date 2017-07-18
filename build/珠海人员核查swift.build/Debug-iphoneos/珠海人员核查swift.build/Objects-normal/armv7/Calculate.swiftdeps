@@ -1,0 +1,305 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Calculate"
+provides-nominal:
+- "CX28swift_bdChqJEaJmDblvatDDbzJq9Calculate"
+provides-member:
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq9Calculate", ""]
+provides-dynamic-lookup:
+- "meareText"
+depends-top-level:
+- "NSObject"
+- !private "Dictionary"
+- !private "Combines"
+- "CGSize"
+- !private "NSLineBreakMode"
+- "Calculate"
+- !private "NSParagraphStyleAttributeName"
+- !private "NSString"
+- "String"
+- !private "NSFontAttributeName"
+- "CastingPrecedence"
+- "AssignmentPrecedence"
+- "UIFont"
+- !private "NSMutableParagraphStyle"
+depends-member:
+- !private ["Ps9AnyObject", "Combines"]
+- !private ["Ps9AnyObject", "NSFontAttributeName"]
+- !private ["Ps9AnyObject", "NSLineBreakMode"]
+- !private ["Ps9AnyObject", "NSMutableParagraphStyle"]
+- !private ["Ps9AnyObject", "NSParagraphStyleAttributeName"]
+- !private ["Ps9AnyObject", "NSString"]
+- !private ["Ps9AnyObject", "boundingRect"]
+- !private ["Ps9AnyObject", "combine"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lineBreakMode"]
+- ["Ps9AnyObject", "meareText"]
+- ["Ps9AnyObject", ""]
+- ["VSC6CGRect", "deinit"]
+- !private ["VSC6CGRect", "size"]
+- ["VSC6CGSize", "deinit"]
+- !private ["Ps7CVarArg", "Combines"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "NSFontAttributeName"]
+- !private ["Ps7CVarArg", "NSLineBreakMode"]
+- !private ["Ps7CVarArg", "NSMutableParagraphStyle"]
+- !private ["Ps7CVarArg", "NSParagraphStyleAttributeName"]
+- !private ["Ps7CVarArg", "NSString"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "boundingRect"]
+- !private ["Ps7CVarArg", "combine"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "lineBreakMode"]
+- ["Ps7CVarArg", "meareText"]
+- ["Ps7CVarArg", ""]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq9Calculate", "CGSize"]
+- !private ["CX28swift_bdChqJEaJmDblvatDDbzJq9Calculate", "Combines"]
+- !private ["CX28swift_bdChqJEaJmDblvatDDbzJq9Calculate", "NSFontAttributeName"]
+- !private ["CX28swift_bdChqJEaJmDblvatDDbzJq9Calculate", "NSLineBreakMode"]
+- !private ["CX28swift_bdChqJEaJmDblvatDDbzJq9Calculate", "NSMutableParagraphStyle"]
+- !private ["CX28swift_bdChqJEaJmDblvatDDbzJq9Calculate", "NSParagraphStyleAttributeName"]
+- !private ["CX28swift_bdChqJEaJmDblvatDDbzJq9Calculate", "NSString"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq9Calculate", "String"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq9Calculate", "UIFont"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq9Calculate", "deinit"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq9Calculate", "init"]
+- ["CX28swift_bdChqJEaJmDblvatDDbzJq9Calculate", "meareText"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- !private ["CSo8Combines", "combine"]
+- !private ["Ps28CustomDebugStringConvertible", "Combines"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "NSFontAttributeName"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLineBreakMode"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableParagraphStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "NSParagraphStyleAttributeName"]
+- !private ["Ps28CustomDebugStringConvertible", "NSString"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "boundingRect"]
+- !private ["Ps28CustomDebugStringConvertible", "combine"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "lineBreakMode"]
+- ["Ps28CustomDebugStringConvertible", "meareText"]
+- !private ["Ps28CustomDebugStringConvertible", "size"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "boundingRect"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "size"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "size"]
+- !private ["Ps23CustomStringConvertible", "Combines"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "NSFontAttributeName"]
+- !private ["Ps23CustomStringConvertible", "NSLineBreakMode"]
+- !private ["Ps23CustomStringConvertible", "NSMutableParagraphStyle"]
+- !private ["Ps23CustomStringConvertible", "NSParagraphStyleAttributeName"]
+- !private ["Ps23CustomStringConvertible", "NSString"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "boundingRect"]
+- !private ["Ps23CustomStringConvertible", "combine"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lineBreakMode"]
+- ["Ps23CustomStringConvertible", "meareText"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Ps9Equatable", "Combines"]
+- !private ["Ps9Equatable", "NSFontAttributeName"]
+- !private ["Ps9Equatable", "NSLineBreakMode"]
+- !private ["Ps9Equatable", "NSMutableParagraphStyle"]
+- !private ["Ps9Equatable", "NSParagraphStyleAttributeName"]
+- !private ["Ps9Equatable", "NSString"]
+- !private ["Ps9Equatable", "boundingRect"]
+- !private ["Ps9Equatable", "byCharWrapping"]
+- !private ["Ps9Equatable", "combine"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lineBreakMode"]
+- ["Ps9Equatable", "meareText"]
+- !private ["Ps9Equatable", "size"]
+- ["Ps9Equatable", ""]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "boundingRect"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "boundingRect"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "boundingRect"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Combines"]
+- !private ["Ps8Hashable", "NSFontAttributeName"]
+- !private ["Ps8Hashable", "NSLineBreakMode"]
+- !private ["Ps8Hashable", "NSMutableParagraphStyle"]
+- !private ["Ps8Hashable", "NSParagraphStyleAttributeName"]
+- !private ["Ps8Hashable", "NSString"]
+- !private ["Ps8Hashable", "boundingRect"]
+- !private ["Ps8Hashable", "byCharWrapping"]
+- !private ["Ps8Hashable", "combine"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lineBreakMode"]
+- ["Ps8Hashable", "meareText"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["PSo8NSCoding", "boundingRect"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "lineBreakMode"]
+- !private ["PSo9NSCopying", "boundingRect"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "lineBreakMode"]
+- !private ["OSC15NSLineBreakMode", "byCharWrapping"]
+- ["OSC15NSLineBreakMode", "deinit"]
+- !private ["PSo16NSMutableCopying", "boundingRect"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "lineBreakMode"]
+- ["CSo23NSMutableParagraphStyle", "deinit"]
+- !private ["CSo23NSMutableParagraphStyle", "init"]
+- !private ["CSo23NSMutableParagraphStyle", "lineBreakMode"]
+- ["CSo8NSObject", "CGSize"]
+- !private ["CSo8NSObject", "Combines"]
+- !private ["CSo8NSObject", "NSFontAttributeName"]
+- !private ["CSo8NSObject", "NSLineBreakMode"]
+- !private ["CSo8NSObject", "NSMutableParagraphStyle"]
+- !private ["CSo8NSObject", "NSParagraphStyleAttributeName"]
+- !private ["CSo8NSObject", "NSString"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIFont"]
+- !private ["CSo8NSObject", "boundingRect"]
+- !private ["CSo8NSObject", "combine"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "lineBreakMode"]
+- ["CSo8NSObject", "meareText"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Combines"]
+- !private ["PSo16NSObjectProtocol", "NSFontAttributeName"]
+- !private ["PSo16NSObjectProtocol", "NSLineBreakMode"]
+- !private ["PSo16NSObjectProtocol", "NSMutableParagraphStyle"]
+- !private ["PSo16NSObjectProtocol", "NSParagraphStyleAttributeName"]
+- !private ["PSo16NSObjectProtocol", "NSString"]
+- !private ["PSo16NSObjectProtocol", "boundingRect"]
+- !private ["PSo16NSObjectProtocol", "combine"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "lineBreakMode"]
+- ["PSo16NSObjectProtocol", "meareText"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo16NSParagraphStyle", "init"]
+- !private ["CSo16NSParagraphStyle", "lineBreakMode"]
+- !private ["PSo14NSSecureCoding", "boundingRect"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "lineBreakMode"]
+- !private ["CSo8NSString", "boundingRect"]
+- ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- ["VSC22NSStringDrawingOptions", "deinit"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "byCharWrapping"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- ["SS", "deinit"]
+- ["CSo6UIFont", "deinit"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "boundingRect"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Combines"]
+- !private ["Ps9_Hashable", "NSFontAttributeName"]
+- !private ["Ps9_Hashable", "NSLineBreakMode"]
+- !private ["Ps9_Hashable", "NSMutableParagraphStyle"]
+- !private ["Ps9_Hashable", "NSParagraphStyleAttributeName"]
+- !private ["Ps9_Hashable", "NSString"]
+- !private ["Ps9_Hashable", "boundingRect"]
+- !private ["Ps9_Hashable", "byCharWrapping"]
+- !private ["Ps9_Hashable", "combine"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "lineBreakMode"]
+- ["Ps9_Hashable", "meareText"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+depends-nominal:
+- "Ps9AnyObject"
+- "VSC6CGRect"
+- "VSC6CGSize"
+- "Ps7CVarArg"
+- "CX28swift_bdChqJEaJmDblvatDDbzJq9Calculate"
+- !private "Ps10Collection"
+- !private "CSo8Combines"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "OSC15NSLineBreakMode"
+- !private "PSo16NSMutableCopying"
+- "CSo23NSMutableParagraphStyle"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo16NSParagraphStyle"
+- !private "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "VSC22NSStringDrawingOptions"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- "SS"
+- "CSo6UIFont"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/Bridge.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFImageDownloader.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFAutoPurgingImageCache.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKIonIcons.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKZocial.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKFoundationIcons.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKFontAwesome.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKIcon.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FontAwesomeKit.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Headers/FontAwesomeKit-umbrella.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework/Modules/module.modulemap"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/Util/Combines.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+interface-hash: "ff76401889128b49254ad368f62c16f9"

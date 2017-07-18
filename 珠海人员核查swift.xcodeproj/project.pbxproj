@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0AB6201F0615680037DEEC /* RyItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0AB61F1F0615680037DEEC /* RyItemCell.swift */; };
 		7C108C711EF25C6100C88414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C108C701EF25C6100C88414 /* AppDelegate.swift */; };
 		7C108C731EF25C6100C88414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C108C721EF25C6100C88414 /* ViewController.swift */; };
 		7C108C761EF25C6100C88414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C108C741EF25C6100C88414 /* Main.storyboard */; };
@@ -14,6 +15,37 @@
 		7C108C7B1EF25C6100C88414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C108C791EF25C6100C88414 /* LaunchScreen.storyboard */; };
 		7C108C861EF25C6100C88414 /* ______swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C108C851EF25C6100C88414 /* ______swiftTests.swift */; };
 		7C108C911EF25C6100C88414 /* ______swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C108C901EF25C6100C88414 /* ______swiftUITests.swift */; };
+		7C108CA01EF273C500C88414 /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C108C9F1EF273C500C88414 /* Exception.swift */; };
+		7C108CA21EF2754400C88414 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C108CA11EF2754400C88414 /* Log.swift */; };
+		7C2331A41EFD67270013E656 /* StateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2331A31EFD67270013E656 /* StateManager.swift */; };
+		7C2331A61EFD89AC0013E656 /* QueueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2331A51EFD89AC0013E656 /* QueueManager.swift */; };
+		7C49EF001EF513720094402F /* ColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C49EEFF1EF513720094402F /* ColorSet.swift */; };
+		7C49EF021EF5146F0094402F /* SubString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C49EF011EF5146F0094402F /* SubString.swift */; };
+		7C58027C1EF7B8A400303267 /* Pods_______swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CBB40F879CB3A8BB28D266D4 /* Pods_______swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C5802811EF7D0D300303267 /* ImageSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5802801EF7D0D300303267 /* ImageSet.swift */; };
+		7C5802841EF8FF7700303267 /* UrlConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5802831EF8FF7700303267 /* UrlConnect.swift */; };
+		7C58028F1EF9211000303267 /* IdentifierKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C58028E1EF9211000303267 /* IdentifierKeyBoard.swift */; };
+		7C68254E1F033F6100F6A217 /* Combines.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C68254D1F033F6100F6A217 /* Combines.m */; };
+		7C69104F1EF9F9330079BAF3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69104E1EF9F9330079BAF3 /* Constants.swift */; };
+		7C6910531EFA1F260079BAF3 /* Protocl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6910521EFA1F260079BAF3 /* Protocl.swift */; };
+		7C6910571EFA2BCC0079BAF3 /* EventHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6910561EFA2BCC0079BAF3 /* EventHandle.swift */; };
+		7C6910591EFA35740079BAF3 /* InputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6910581EFA35740079BAF3 /* InputFieldView.swift */; };
+		7C6F8E291EFBAEAE00DDBF5C /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C6F8E281EFBAEAE00DDBF5C /* ionicons.ttf */; };
+		7C885A1B1F009ABE00849931 /* RequestParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C885A191F009ABE00849931 /* RequestParam.swift */; };
+		7C885A1C1F009ABE00849931 /* RyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C885A1A1F009ABE00849931 /* RyItem.swift */; };
+		7C885A1E1F00DBC300849931 /* RyCompareItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C885A1D1F00DBC300849931 /* RyCompareItem.swift */; };
+		7C885A201F00DCF300849931 /* RyResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C885A1F1F00DCF300849931 /* RyResultItem.swift */; };
+		7C885A221F00E0D700849931 /* DataFormatterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C885A211F00E0D700849931 /* DataFormatterSet.swift */; };
+		7C885A241F01E6FA00849931 /* ParseCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C885A231F01E6FA00849931 /* ParseCenter.swift */; };
+		7CA14A471F15C236004BBF68 /* Rx_ClassA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA14A461F15C236004BBF68 /* Rx_ClassA.swift */; };
+		7CA9FB731EF786970022B519 /* RyhcCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA9FB721EF786970022B519 /* RyhcCell.swift */; };
+		7CCA1E141F03372600764BB9 /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA1E131F03372600764BB9 /* Calculate.swift */; };
+		7CDD037F1EFCEBAC00FCBAF8 /* GCDTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD037E1EFCEBAC00FCBAF8 /* GCDTask.swift */; };
+		7CDD03811EFCEF0E00FCBAF8 /* FilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD03801EFCEF0E00FCBAF8 /* FilterManager.swift */; };
+		7CE4F9DF1EFCAF4500029D27 /* VersonHelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4F9DE1EFCAF4500029D27 /* VersonHelpVC.swift */; };
+		7CE4F9E11EFCB7C600029D27 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE4F9E01EFCB7C600029D27 /* FontAwesome.otf */; };
+		7CE4F9E41EFCC33E00029D27 /* renyuan.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE4F9E31EFCC33E00029D27 /* renyuan.png */; };
+		A2998CD043E542DD09A75B8C /* Pods_______swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB40F879CB3A8BB28D266D4 /* Pods_______swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +65,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7CA9FBC11EF7B12E0022B519 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7C58027C1EF7B8A400303267 /* Pods_______swift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7C0AB61F1F0615680037DEEC /* RyItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RyItemCell.swift; sourceTree = "<group>"; };
 		7C108C6D1EF25C6100C88414 /* 珠海人员核查swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "珠海人员核查swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C108C701EF25C6100C88414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C108C721EF25C6100C88414 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +94,40 @@
 		7C108C8C1EF25C6100C88414 /* 珠海人员核查swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "珠海人员核查swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C108C901EF25C6100C88414 /* ______swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______swiftUITests.swift"; sourceTree = "<group>"; };
 		7C108C921EF25C6100C88414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C108C9F1EF273C500C88414 /* Exception.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exception.swift; sourceTree = "<group>"; };
+		7C108CA11EF2754400C88414 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		7C2331A31EFD67270013E656 /* StateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateManager.swift; sourceTree = "<group>"; };
+		7C2331A51EFD89AC0013E656 /* QueueManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueManager.swift; sourceTree = "<group>"; };
+		7C49EEFF1EF513720094402F /* ColorSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSet.swift; sourceTree = "<group>"; };
+		7C49EF011EF5146F0094402F /* SubString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubString.swift; sourceTree = "<group>"; };
+		7C5802801EF7D0D300303267 /* ImageSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSet.swift; sourceTree = "<group>"; };
+		7C5802831EF8FF7700303267 /* UrlConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlConnect.swift; sourceTree = "<group>"; };
+		7C58028E1EF9211000303267 /* IdentifierKeyBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifierKeyBoard.swift; sourceTree = "<group>"; };
+		7C68254C1F033F6100F6A217 /* Combines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Combines.h; sourceTree = "<group>"; };
+		7C68254D1F033F6100F6A217 /* Combines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Combines.m; sourceTree = "<group>"; };
+		7C69104E1EF9F9330079BAF3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7C6910511EFA0F050079BAF3 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		7C6910521EFA1F260079BAF3 /* Protocl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Protocl.swift; path = ../Protocl.swift; sourceTree = "<group>"; };
+		7C6910561EFA2BCC0079BAF3 /* EventHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventHandle.swift; sourceTree = "<group>"; };
+		7C6910581EFA35740079BAF3 /* InputFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputFieldView.swift; sourceTree = "<group>"; };
+		7C6F8E281EFBAEAE00DDBF5C /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ionicons.ttf; path = "珠海人员核查swift/ionicons.ttf"; sourceTree = "<group>"; };
+		7C885A191F009ABE00849931 /* RequestParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestParam.swift; sourceTree = "<group>"; };
+		7C885A1A1F009ABE00849931 /* RyItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RyItem.swift; sourceTree = "<group>"; };
+		7C885A1D1F00DBC300849931 /* RyCompareItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RyCompareItem.swift; sourceTree = "<group>"; };
+		7C885A1F1F00DCF300849931 /* RyResultItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RyResultItem.swift; sourceTree = "<group>"; };
+		7C885A211F00E0D700849931 /* DataFormatterSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFormatterSet.swift; sourceTree = "<group>"; };
+		7C885A231F01E6FA00849931 /* ParseCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseCenter.swift; sourceTree = "<group>"; };
+		7CA14A461F15C236004BBF68 /* Rx_ClassA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rx_ClassA.swift; sourceTree = "<group>"; };
+		7CA9FB721EF786970022B519 /* RyhcCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RyhcCell.swift; sourceTree = "<group>"; };
+		7CCA1E131F03372600764BB9 /* Calculate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
+		7CDD037E1EFCEBAC00FCBAF8 /* GCDTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDTask.swift; sourceTree = "<group>"; };
+		7CDD03801EFCEF0E00FCBAF8 /* FilterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterManager.swift; sourceTree = "<group>"; };
+		7CE4F9DE1EFCAF4500029D27 /* VersonHelpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersonHelpVC.swift; sourceTree = "<group>"; };
+		7CE4F9E01EFCB7C600029D27 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		7CE4F9E31EFCC33E00029D27 /* renyuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = renyuan.png; sourceTree = "<group>"; };
+		89DDB515BB0E31E21A13B43E /* Pods-珠海人员核查swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-珠海人员核查swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-珠海人员核查swift/Pods-珠海人员核查swift.debug.xcconfig"; sourceTree = "<group>"; };
+		AF439C7ECB9DE70F22A9865D /* Pods-珠海人员核查swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-珠海人员核查swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-珠海人员核查swift/Pods-珠海人员核查swift.release.xcconfig"; sourceTree = "<group>"; };
+		CBB40F879CB3A8BB28D266D4 /* Pods_______swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2998CD043E542DD09A75B8C /* Pods_______swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +156,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CFDD46C07D27F422BBE2E43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBB40F879CB3A8BB28D266D4 /* Pods_______swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79A708D40D79660DB35A2395 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89DDB515BB0E31E21A13B43E /* Pods-珠海人员核查swift.debug.xcconfig */,
+				AF439C7ECB9DE70F22A9865D /* Pods-珠海人员核查swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7C108C641EF25C6100C88414 = {
 			isa = PBXGroup;
 			children = (
+				7CE4F9E01EFCB7C600029D27 /* FontAwesome.otf */,
+				7C6F8E281EFBAEAE00DDBF5C /* ionicons.ttf */,
 				7C108C6F1EF25C6100C88414 /* 珠海人员核查swift */,
 				7C108C841EF25C6100C88414 /* 珠海人员核查swiftTests */,
 				7C108C8F1EF25C6100C88414 /* 珠海人员核查swiftUITests */,
 				7C108C6E1EF25C6100C88414 /* Products */,
+				79A708D40D79660DB35A2395 /* Pods */,
+				0CFDD46C07D27F422BBE2E43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +200,22 @@
 		7C108C6F1EF25C6100C88414 /* 珠海人员核查swift */ = {
 			isa = PBXGroup;
 			children = (
+				7CA14A451F15C21C004BBF68 /* RxSwift */,
+				7C885A181F009ABE00849931 /* Model */,
+				7CE4F9E21EFCC33E00029D27 /* Images */,
+				7C6910551EFA2B9D0079BAF3 /* handle */,
+				7C6910541EFA1F6D0079BAF3 /* protocl */,
+				7C5802821EF8FF6900303267 /* Internet */,
+				7CA9FB711EF7865A0022B519 /* RyhcView */,
+				7C108C9E1EF2736A00C88414 /* Util */,
 				7C108C701EF25C6100C88414 /* AppDelegate.swift */,
 				7C108C721EF25C6100C88414 /* ViewController.swift */,
+				7CE4F9DE1EFCAF4500029D27 /* VersonHelpVC.swift */,
 				7C108C741EF25C6100C88414 /* Main.storyboard */,
 				7C108C771EF25C6100C88414 /* Assets.xcassets */,
 				7C108C791EF25C6100C88414 /* LaunchScreen.storyboard */,
 				7C108C7C1EF25C6100C88414 /* Info.plist */,
+				7C6910511EFA0F050079BAF3 /* Bridge.h */,
 			);
 			path = "珠海人员核查swift";
 			sourceTree = "<group>";
@@ -125,6 +238,90 @@
 			path = "珠海人员核查swiftUITests";
 			sourceTree = "<group>";
 		};
+		7C108C9E1EF2736A00C88414 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7C108C9F1EF273C500C88414 /* Exception.swift */,
+				7C108CA11EF2754400C88414 /* Log.swift */,
+				7C49EEFF1EF513720094402F /* ColorSet.swift */,
+				7C49EF011EF5146F0094402F /* SubString.swift */,
+				7C5802801EF7D0D300303267 /* ImageSet.swift */,
+				7C58028E1EF9211000303267 /* IdentifierKeyBoard.swift */,
+				7C69104E1EF9F9330079BAF3 /* Constants.swift */,
+				7C6910581EFA35740079BAF3 /* InputFieldView.swift */,
+				7CDD037E1EFCEBAC00FCBAF8 /* GCDTask.swift */,
+				7C885A211F00E0D700849931 /* DataFormatterSet.swift */,
+				7CCA1E131F03372600764BB9 /* Calculate.swift */,
+				7C68254C1F033F6100F6A217 /* Combines.h */,
+				7C68254D1F033F6100F6A217 /* Combines.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		7C5802821EF8FF6900303267 /* Internet */ = {
+			isa = PBXGroup;
+			children = (
+				7C5802831EF8FF7700303267 /* UrlConnect.swift */,
+			);
+			path = Internet;
+			sourceTree = "<group>";
+		};
+		7C6910541EFA1F6D0079BAF3 /* protocl */ = {
+			isa = PBXGroup;
+			children = (
+				7C6910521EFA1F260079BAF3 /* Protocl.swift */,
+			);
+			path = protocl;
+			sourceTree = "<group>";
+		};
+		7C6910551EFA2B9D0079BAF3 /* handle */ = {
+			isa = PBXGroup;
+			children = (
+				7C2331A31EFD67270013E656 /* StateManager.swift */,
+				7C6910561EFA2BCC0079BAF3 /* EventHandle.swift */,
+				7CDD03801EFCEF0E00FCBAF8 /* FilterManager.swift */,
+				7C2331A51EFD89AC0013E656 /* QueueManager.swift */,
+			);
+			path = handle;
+			sourceTree = "<group>";
+		};
+		7C885A181F009ABE00849931 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7C885A191F009ABE00849931 /* RequestParam.swift */,
+				7C885A1A1F009ABE00849931 /* RyItem.swift */,
+				7C885A1D1F00DBC300849931 /* RyCompareItem.swift */,
+				7C885A1F1F00DCF300849931 /* RyResultItem.swift */,
+				7C885A231F01E6FA00849931 /* ParseCenter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7CA14A451F15C21C004BBF68 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7CA14A461F15C236004BBF68 /* Rx_ClassA.swift */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		7CA9FB711EF7865A0022B519 /* RyhcView */ = {
+			isa = PBXGroup;
+			children = (
+				7CA9FB721EF786970022B519 /* RyhcCell.swift */,
+				7C0AB61F1F0615680037DEEC /* RyItemCell.swift */,
+			);
+			path = RyhcView;
+			sourceTree = "<group>";
+		};
+		7CE4F9E21EFCC33E00029D27 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7CE4F9E31EFCC33E00029D27 /* renyuan.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +329,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C108C951EF25C6100C88414 /* Build configuration list for PBXNativeTarget "珠海人员核查swift" */;
 			buildPhases = (
+				E3636D8C2AE073345FAD5F78 /* [CP] Check Pods Manifest.lock */,
 				7C108C691EF25C6100C88414 /* Sources */,
 				7C108C6A1EF25C6100C88414 /* Frameworks */,
 				7C108C6B1EF25C6100C88414 /* Resources */,
+				7CA9FBC11EF7B12E0022B519 /* Embed Frameworks */,
+				B3565A2654BFE0B3179E841E /* [CP] Embed Pods Frameworks */,
+				D5A68F9B96C63AEDFDB56565 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,7 +437,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C108C7B1EF25C6100C88414 /* LaunchScreen.storyboard in Resources */,
+				7CE4F9E11EFCB7C600029D27 /* FontAwesome.otf in Resources */,
+				7CE4F9E41EFCC33E00029D27 /* renyuan.png in Resources */,
 				7C108C781EF25C6100C88414 /* Assets.xcassets in Resources */,
+				7C6F8E291EFBAEAE00DDBF5C /* ionicons.ttf in Resources */,
 				7C108C761EF25C6100C88414 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +461,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B3565A2654BFE0B3179E841E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-珠海人员核查swift/Pods-珠海人员核查swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5A68F9B96C63AEDFDB56565 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-珠海人员核查swift/Pods-珠海人员核查swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3636D8C2AE073345FAD5F78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7C108C691EF25C6100C88414 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C6910591EFA35740079BAF3 /* InputFieldView.swift in Sources */,
+				7C5802811EF7D0D300303267 /* ImageSet.swift in Sources */,
+				7C2331A41EFD67270013E656 /* StateManager.swift in Sources */,
+				7C69104F1EF9F9330079BAF3 /* Constants.swift in Sources */,
+				7C108CA01EF273C500C88414 /* Exception.swift in Sources */,
+				7CA14A471F15C236004BBF68 /* Rx_ClassA.swift in Sources */,
+				7C0AB6201F0615680037DEEC /* RyItemCell.swift in Sources */,
+				7C885A241F01E6FA00849931 /* ParseCenter.swift in Sources */,
+				7C2331A61EFD89AC0013E656 /* QueueManager.swift in Sources */,
+				7CE4F9DF1EFCAF4500029D27 /* VersonHelpVC.swift in Sources */,
+				7C6910531EFA1F260079BAF3 /* Protocl.swift in Sources */,
+				7CA9FB731EF786970022B519 /* RyhcCell.swift in Sources */,
+				7C49EF021EF5146F0094402F /* SubString.swift in Sources */,
+				7C68254E1F033F6100F6A217 /* Combines.m in Sources */,
 				7C108C731EF25C6100C88414 /* ViewController.swift in Sources */,
+				7C885A221F00E0D700849931 /* DataFormatterSet.swift in Sources */,
+				7CDD037F1EFCEBAC00FCBAF8 /* GCDTask.swift in Sources */,
+				7C6910571EFA2BCC0079BAF3 /* EventHandle.swift in Sources */,
+				7C108CA21EF2754400C88414 /* Log.swift in Sources */,
+				7C5802841EF8FF7700303267 /* UrlConnect.swift in Sources */,
+				7C885A1E1F00DBC300849931 /* RyCompareItem.swift in Sources */,
+				7C885A201F00DCF300849931 /* RyResultItem.swift in Sources */,
+				7C885A1C1F009ABE00849931 /* RyItem.swift in Sources */,
+				7CCA1E141F03372600764BB9 /* Calculate.swift in Sources */,
 				7C108C711EF25C6100C88414 /* AppDelegate.swift in Sources */,
+				7CDD03811EFCEF0E00FCBAF8 /* FilterManager.swift in Sources */,
+				7C49EF001EF513720094402F /* ColorSet.swift in Sources */,
+				7C58028F1EF9211000303267 /* IdentifierKeyBoard.swift in Sources */,
+				7C885A1B1F009ABE00849931 /* RequestParam.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,27 +692,37 @@
 		};
 		7C108C961EF25C6100C88414 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89DDB515BB0E31E21A13B43E /* Pods-珠海人员核查swift.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9W3382KDQW;
 				INFOPLIST_FILE = "珠海人员核查swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.rooten.------swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Bridge.h";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		7C108C971EF25C6100C88414 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF439C7ECB9DE70F22A9865D /* Pods-珠海人员核查swift.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9W3382KDQW;
 				INFOPLIST_FILE = "珠海人员核查swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.rooten.------swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Bridge.h";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -514,6 +803,7 @@
 				7C108C971EF25C6100C88414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C108C981EF25C6100C88414 /* Build configuration list for PBXNativeTarget "珠海人员核查swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +812,7 @@
 				7C108C9A1EF25C6100C88414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C108C9B1EF25C6100C88414 /* Build configuration list for PBXNativeTarget "珠海人员核查swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +821,7 @@
 				7C108C9D1EF25C6100C88414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

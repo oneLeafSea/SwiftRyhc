@@ -1,0 +1,37 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnonymousInvocable"
+provides-nominal:
+- "V7RxSwift18AnonymousInvocable"
+provides-member:
+- ["V7RxSwift18AnonymousInvocable", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "InvocableType"
+- "AssignmentPrecedence"
+- "AnonymousInvocable"
+depends-member:
+- !private ["V7RxSwift18AnonymousInvocable", "_action"]
+- ["V7RxSwift18AnonymousInvocable", "deinit"]
+- ["V7RxSwift18AnonymousInvocable", "init"]
+- ["V7RxSwift18AnonymousInvocable", "invoke"]
+- !private ["P7RxSwift13InvocableType", "_action"]
+- ["P7RxSwift13InvocableType", "invoke"]
+- ["P7RxSwift13InvocableType", ""]
+depends-nominal:
+- "V7RxSwift18AnonymousInvocable"
+- "P7RxSwift13InvocableType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/fengxueshi/Desktop/\u73E0\u6D77\u4EBA\u5458\u6838\u67E5swift/build/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "6a62086f69fb2c3e67c2be34acdf0b82"
